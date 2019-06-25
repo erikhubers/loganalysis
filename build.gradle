@@ -8,7 +8,7 @@ version 'android-5.1.0_r4'
 sourceCompatibility = 1.8
 
 repositories {
-    maven { url 'https://nexus.mobielehandhaving.nl/repository/gradle/' }
+    mavenCentral()
 }
 
 dependencies {
